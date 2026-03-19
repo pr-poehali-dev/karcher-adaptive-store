@@ -150,7 +150,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
             <div className="relative animate-float">
               <div className="absolute inset-0 bg-gradient-to-br from-karcher-yellow/20 to-karcher-cyan/10 rounded-lg blur-xl scale-95" />
               <img
-                src="https://cdn.poehali.dev/projects/4baf592f-ea8f-439a-80f8-88a961ce45ee/files/35e972bc-b6ad-46f4-97e9-ab2b174a2f1c.jpg"
+                src="https://cdn.poehali.dev/projects/4baf592f-ea8f-439a-80f8-88a961ce45ee/files/3fdb0396-4220-4bd0-a6a6-c3022a3e09d3.jpg"
                 alt="Kärcher K7"
                 className="relative rounded-lg w-full object-cover aspect-square max-w-lg mx-auto border border-karcher-yellow/20"
               />
