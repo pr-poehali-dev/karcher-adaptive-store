@@ -42,17 +42,12 @@ export default function Navbar({ currentPage, onNavigate }: NavbarProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <button onClick={() => handleNav('home')} className="flex items-center gap-2 group">
-              <div className="relative">
-                <div className="w-10 h-10 bg-karcher-yellow rounded-sm flex items-center justify-center font-rajdhani font-black text-karcher-dark text-lg group-hover:animate-pulse-yellow transition-all">
-                  K
-                </div>
-                <div className="absolute -bottom-1 -right-1 w-3 h-3 bg-karcher-cyan rounded-full animate-pulse-cyan" />
-              </div>
-              <div className="hidden sm:block">
-                <div className="font-rajdhani font-bold text-xl text-white tracking-widest">KÄRCHER</div>
-                <div className="text-xs text-karcher-cyan tracking-[0.3em] -mt-1">PROFESSIONAL</div>
-              </div>
+            <button onClick={() => handleNav('home')} className="flex items-center group">
+              <img
+                src="https://cdn.poehali.dev/projects/4baf592f-ea8f-439a-80f8-88a961ce45ee/bucket/073e2a20-0f5e-4800-89ed-64b7f7cda159.jpg"
+                alt="Ньюком Тула"
+                className="h-10 w-auto object-contain"
+              />
             </button>
 
             {/* Desktop Nav */}
